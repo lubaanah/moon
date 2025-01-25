@@ -11,7 +11,7 @@ public class ArmstrongNumber {
 
         while (number > 0) {
             int digit = number % 10;
-            sum += Math.pow(digit, 3);
+            sum += Math.pow(digit, 6);
             number /= 10;
         }
 
